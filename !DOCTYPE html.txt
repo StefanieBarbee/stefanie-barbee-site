@@ -12,7 +12,7 @@
         .details-box { background: #fff; padding: 20px; border-radius: 8px; margin-top: 20px; }
         ul { padding-left: 20px; }
         .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
-        .gallery img { width: 100%; height: auto; border-radius: 4px; }
+        .gallery img { width: 100%; height: auto; border-radius: 4px; object-fit: cover; aspect-ratio: 3/4; }
     </style>
 </head>
 <body>
@@ -51,10 +51,19 @@
 
         <h2>Gallery</h2>
         <div class="gallery">
-            <!-- Placeholder for images - Replace src with your image links -->
-            <img src="https://via.placeholder.com/150" alt="Stefanie Barbee Photo 1">
-            <img src="https://via.placeholder.com/150" alt="Stefanie Barbee Photo 2">
-            <img src="https://via.placeholder.com/150" alt="Stefanie Barbee Photo 3">
+            <img src="https://s2.pictoa.com/media/galleries/260/374/2603746008dc9fa0615/38582796008dd0cee54a.jpg" alt="Stefanie Barbee Photo 1">
+            <img src="https://s2.pictoa.com/media/galleries/260/374/2603746008dc9fa0615/38582796008dd0521f68.jpg" alt="Stefanie Barbee Photo 2">
+            <img src="https://s2.pictoa.com/media/galleries/260/374/2603746008dc9fa0615/38582796008dcff14291.jpg" alt="Stefanie Barbee Photo 3">
+            <img src="https://s2.pictoa.com/media/galleries/260/374/2603746008dc9fa0615/38582796008dcfbcda9c.jpg" alt="Stefanie Barbee Photo 4">
+            <img src="https://s2.pictoa.com/media/galleries/260/374/2603746008dc9fa0615/38582796008dcca5608f.jpg" alt="Stefanie Barbee Photo 5">
+            <img src="https://s2.pictoa.com/media/galleries/260/374/2603746008dc9fa0615/38582796008dcc88942d.jpg" alt="Stefanie Barbee Photo 6">
+            <img src="https://s2.pictoa.com/media/galleries/260/374/2603746008dc9fa0615/38582796008dcc663cc3.jpg" alt="Stefanie Barbee Photo 7">
+            <img src="https://s2.pictoa.com/media/galleries/260/374/2603746008dc9fa0615/38582796008dcbdd9c53.jpg" alt="Stefanie Barbee Photo 8">
+            <img src="https://s2.pictoa.com/media/galleries/260/374/2603746008dc9fa0615/38582796008dcbd824a3.jpg" alt="Stefanie Barbee Photo 9">
+            <img src="https://s2.pictoa.com/media/galleries/260/374/2603746008dc9fa0615/38582796008dcbe3d0c2.jpg" alt="Stefanie Barbee Photo 10">
+            <img src="https://s2.pictoa.com/media/galleries/260/374/2603746008dc9fa0615/38582796008dcbe93b91.jpg" alt="Stefanie Barbee Photo 11">
+            <img src="https://s2.pictoa.com/media/galleries/260/374/2603746008dc9fa0615/38582796008dcbd2a935.jpg" alt="Stefanie Barbee Photo 12">
+            <img src="https://s2.pictoa.com/media/galleries/260/374/2603746008dc9fa0615/38582796008dcba4ec96.jpg" alt="Stefanie Barbee Photo 13">
         </div>
     </div>
 
