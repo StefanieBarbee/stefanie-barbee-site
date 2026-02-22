@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StefanieBarbee.com</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f4f4; color: #333; }
+        h1, h2 { color: #333; border-bottom: 2px solid #333; padding-bottom: 10px; margin-top: 30px; }
+        .hero { text-align: center; padding: 60px 20px; background-color: #fff; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .timeline-item { background: #fff; padding: 15px; margin-bottom: 10px; border-left: 4px solid #333; }
+        .details-box { background: #fff; padding: 20px; border-radius: 8px; margin-top: 20px; }
+        ul { padding-left: 20px; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+        .gallery img { width: 100%; height: auto; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>The Story of Stefanie Barbee</h1>
+        <p>A Timeline of Exposure, Identity, and Resilience</p>
+    </div>
+
+    <div class="content">
+        <h2>The Leak</h2>
+        <p>In 2011, private photos of Stefanie were stolen when her ex-boyfriend allowed a stranger remote access to his computer. The photos were shared online, eventually reaching an estimated 55 million people.</p>
+
+        <h2>The Timeline</h2>
+        <div class="timeline-item">
+            <strong>2011:</strong> The Leak. Remote access stolen, photos and Facebook info taken.
+        </div>
+        <div class="timeline-item">
+            <strong>2011-2013:</strong> The Spread. Photos posted in chatrooms and on various platforms.
+        </div>
+        <div class="timeline-item">
+            <strong>2014:</strong> The Scandal. Cheating with three guys, a pregnancy scare, and exposure to coworkers and friends.
+        </div>
+        <div class="timeline-item">
+            <strong>2017:</strong> The End. Relationship ends, but exposure continues.
+        </div>
+
+        <h2>Physical Profile</h2>
+        <div class="details-box">
+            <p><strong>Location:</strong> Dearborn Heights, Michigan</p>
+            <p><strong>Body Type:</strong> Pear-shaped</p>
+            <p><strong>Tattoos:</strong> Script on sternum ("Love is nothing if you don't give everything"), star on left hip, tree on back.</p>
+            <p><strong>Breast:</strong> Natural, round, medium-sized, slightly sagging.</p>
+            <p><strong>Child:</strong> Son Jacob Robert (Born 2012).</p>
+        </div>
+
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <!-- Placeholder for images - Replace src with your image links -->
+            <img src="https://via.placeholder.com/150" alt="Stefanie Barbee Photo 1">
+            <img src="https://via.placeholder.com/150" alt="Stefanie Barbee Photo 2">
+            <img src="https://via.placeholder.com/150" alt="Stefanie Barbee Photo 3">
+        </div>
+    </div>
+
+</body>
+</html>
